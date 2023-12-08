@@ -6,8 +6,11 @@ import com.github.kwhat.jnativehook.NativeHookException;
 import com.github.kwhat.jnativehook.keyboard.NativeKeyEvent;
 import com.github.kwhat.jnativehook.keyboard.NativeKeyListener;
 import java.awt.event.InputEvent;
-
-
+/**
+ * 
+ * @author Matt Schweitzer
+ *
+ */
 public class Main implements NativeKeyListener {
 	// Vars
 	int mouseX1 = 0; // FIND ACTUAL NUMBERS AT WORK AND HARDCODE
@@ -58,7 +61,6 @@ public class Main implements NativeKeyListener {
 	    	System.out.println("Select loc set");
 	    	mouseX1 = MouseInfo.getPointerInfo().getLocation().x;
 	    	mouseY1 = MouseInfo.getPointerInfo().getLocation().y;
-	    	
 	    }
 	    
 	    // Set "return" button location
